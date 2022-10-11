@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import { hamLogo, logoIcon } from "../data/icons";
 
 export default function Home() {
   return (
@@ -10,15 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className="flex justify-around h-28 items-center">
-        <Image
-          className="h-0.5"
-          src="/assests/images/logo.svg"
-          alt="website logo"
-          width={100}
-          height={100}
-        ></Image>
+        <div className="logo">{logoIcon()}</div>
 
-        <ul className="nav-links lg:flex hidden lg:block">
+        <ul className="nav-links lg:flex hidden lg:block lg:justify-around lg:w-2/4">
           <li>Pricing</li>
           <li>Product</li>
           <li>About Us</li>
@@ -26,18 +20,12 @@ export default function Home() {
           <li>Community</li>
         </ul>
 
-        <button className="started lg:flex hidden lg:block">Get Started</button>
+        <button className="started lg:flex hidden lg:block bg-otherOrange font-bold">
+          Get Started
+        </button>
 
-        <Image
-          src="/assests/images/icon-hamburger.svg"
-          alt="hamburger"
-          width={50}
-          height={50}
-        ></Image>
+        <div className="ham lg:hidden">{hamLogo()}</div>
       </nav>
-
-      {/* <img src="/assests/images/icon-hamburger.svg" alt="" />
-      <img src="/assests/images/logo.svg" alt="" /> */}
     </>
   );
 }

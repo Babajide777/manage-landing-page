@@ -5,6 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      vietnam: ["Be Vietnam Pro", "sans-serif"],
+    },
     extend: {
       colors: {
         otherOrange: "#F3603C",
