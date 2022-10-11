@@ -14,6 +14,7 @@ module.exports = {
         otherBlue: "#242D52",
         otherBlack: "#1D1E25",
         otherLight: "#FFF0EC",
+        otherWhite: "#FCF6F5",
       },
     },
   },

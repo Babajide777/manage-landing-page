@@ -12,15 +12,15 @@ export default function Home() {
       <nav className="flex justify-around h-28 items-center">
         <div className="logo">{logoIcon()}</div>
 
-        <ul className="nav-links lg:flex hidden lg:block lg:justify-around lg:w-2/4">
-          <li>Pricing</li>
-          <li>Product</li>
-          <li>About Us</li>
-          <li>Careers</li>
-          <li>Community</li>
+        <ul className="nav-links lg:flex hidden lg:block lg:justify-around lg:w-2/5 items-center font-medium text-[13px] leading-[18.99px] text-otherBlue ">
+          <li className="hover:opacity-50">Pricing</li>
+          <li className="hover:opacity-50">Product</li>
+          <li className="hover:opacity-50">About Us</li>
+          <li className="hover:opacity-50">Careers</li>
+          <li className="hover:opacity-50">Community</li>
         </ul>
 
-        <button className="started lg:flex hidden lg:block bg-otherOrange font-bold">
+        <button className="started lg:flex items-center hover:opacity-50 justify-center hidden lg:block bg-otherOrange font-bold text-[13px] leading-[18.99px] w-[137px] h-[44px] rounded-[22px] text-otherWhite">
           Get Started
         </button>
 
