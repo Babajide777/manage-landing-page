@@ -34,14 +34,14 @@ export default function Home() {
         </div>
         <div className="md:hidden">{smallIllustrationLogo()}</div>
         <div className="first-section-text ">
-          <h2 className="text-otherBlue font-bold text-[40px] lg:w-[445px] text-center lg:text-left leading-[50px] lg:pb-5">
+          <h2 className="text-otherBlue font-bold text-[40px] lg:w-[445px] text-center lg:text-left leading-[50px] lg:pb-7">
             Bring everyone together to build better products.
           </h2>
-          <p className="font-light text-base leading-[28px] lg:w-[350px] text-center lg:pb-5 opacity-50 text-otherBlue lg:text-left">
+          <p className="font-light text-base leading-[28px] lg:w-[350px] text-center lg:pb-7 opacity-50 text-otherBlue lg:text-left">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <button className="started lg:flex items-center hover:opacity-50   justify-center hidden lg:block bg-otherOrange font-bold text-[13px] leading-[18.99px] w-[137px] h-[44px] rounded-[22px] text-otherWhite">
+          <button className="started lg:flex items-center hover:opacity-50 justify-center hidden lg:block bg-otherOrange font-bold text-[13px] leading-[18.99px] w-[137px] h-[44px] rounded-[22px] text-otherWhite">
             Get Started
           </button>
         </div>
